@@ -17,7 +17,7 @@ export class NewsOutService implements NewsOutAdapter {
   }
 
   async findAll(): Promise<News[]> {
-    const entities: News[] = await this.newsMysql.getJp30news();
+    const entities: News[] = await this.newsMysql.get30news();
     return entities;
   }
 }

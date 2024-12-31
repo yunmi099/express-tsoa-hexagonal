@@ -14,20 +14,6 @@ import { NewsDto } from 'src/domains/news/core/domain/dto/newsDto';
  *   data: {
  *     count: 321,
  *     list: [{
- *       searchAfter: ["20230418", "19:15", "https://www.nikkei.com/article/DGXZQOUB267YU0W4A720C2000000/"],
- *       newsId: "https://www.nikkei.com/article/DGXZQOUB267YU0W4A720C2000000/",
- *       date: "20210208",
- *       time: "10:11",
- *       category: "キャッシュレス",
- *       title: "セゾン、カード審査を大幅刷新　信用度別に手続き簡素化",
- *       titleHl: "<mark>セゾン、カード審査を大幅刷新</mark>　信用度別に手続き簡素化",
- *       content: " 日経の記事利用サービスについて 企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。",
- *       contentHl: "<mark>개인형 이동장치</mark>로 인한 시민 불편 최소화 및 안전 보장 기대 광주CBS 이승훈 기자 정순애 ...",
- *       press: "日経電子版",
- *       pressHl: "<mark>日経電子版</mark>",
- *       link: "https://www.nikkei.com/article/DGXZQOUB267YU0W4A720C2000000/",
- *       imgLink: "https://www.yomiuri.co.jp//media/2024/08/20240808-OYT1I50051-1.jpg?type=large",
- *       hasEn: 0
  *     }]
  *   }
  * };
@@ -40,22 +26,7 @@ import { NewsDto } from 'src/domains/news/core/domain/dto/newsDto';
  *   "code": 200,
  *   "data": {
  *     "count": 321,
- *     "list": [{
- *       "searchAfter": ["20230418", "19:15", "https://www.nikkei.com/article/DGXZQOUB267YU0W4A720C2000000/"],
- *       "newsId": "https://www.nikkei.com/article/DGXZQOUB267YU0W4A720C2000000/",
- *       "date": "20210208",
- *       "time": "10:11",
- *       "category": "キャッシュレス",
- *       "title": "セゾン、カード審査を大幅刷新　信用度別に手続き簡素化",
- *       "titleHl": "<mark>セゾン、カード審査を大幅刷新</mark>　信用度別に手続き簡素化",
- *       "content": " 日経の記事利用サービスについて 企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。",
- *       "contentHl": "<mark>개인형 이동장치</mark>로 인한 시민 불편 최소화 및 안전 보장 기대 광주CBS 이승훈 기자 정순애 ...",
- *       "press": "日経電子版",
- *       "pressHl": "<mark>日経電子版</mark>",
- *       "link": "https://www.nikkei.com/article/DGXZQOUB267YU0W4A720C2000000/",
- *       "imgLink": "https://www.yomiuri.co.jp//media/2024/08/20240808-OYT1I50051-1.jpg?type=large",
- *       "hasEn": 0
- *     }]
+ *     "list": []
  *   }
  * }
  */

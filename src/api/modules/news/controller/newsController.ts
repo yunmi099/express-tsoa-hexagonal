@@ -17,7 +17,7 @@ import { NewsInfoResponses } from '../response';
 import { ErrorResponse, CustomError } from '../../../common/response';
 
 @Route('/news')
-@Tags('JNews')
+@Tags('News')
 export class NewsController extends Controller {
   private readonly newsInAdapter: NewsInAdapter;
 

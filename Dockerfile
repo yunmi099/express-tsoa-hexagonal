@@ -26,7 +26,7 @@ WORKDIR /app
 COPY --from=build /app .
 
 # Expose ports
-EXPOSE 3003 4003
+EXPOSE 3003
 
 # Environment variables
 ARG NODE_ENV

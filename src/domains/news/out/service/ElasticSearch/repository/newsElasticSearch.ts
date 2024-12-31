@@ -5,10 +5,10 @@ export class NewsElasticSearchRepository {
   // async getJpNewsById(newsId: string): Promise<News[]> {
   //   throw new Error('Method not implemented.');
   // }
-  async getJp30news(): Promise<News[]> {
+  async get30news(): Promise<News[]> {
     try {
       const result = await client.search({
-        index: 'jp-news',
+        index: 'news',
         body: {
           sort: [
             {
